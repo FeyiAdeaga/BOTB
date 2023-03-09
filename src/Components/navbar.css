@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+.nav-bar{
+    background-color:#1a1a1a;
+    
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 12px 10px 12px 10px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.nfl_logo{
+    max-height: 4vh;
+}
+
+.left, .right{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.left_ele:hover, .right:hover{
+    text-decoration: underline;
+    transition-duration: 0.2s;
+}
+
+.left_ele,.right_ele{
+    padding: 2px;
+    margin: 0px 0.3vw;
+}
+
