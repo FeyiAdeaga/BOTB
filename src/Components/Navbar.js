@@ -8,8 +8,7 @@ export default function Navbar() {
     <div className='nav-bar'>
 
 
-
-      <Outlet />
+      {/* <Outlet /> */}
 
       <div className="left">
       <div className="left_ele">
@@ -18,17 +17,21 @@ export default function Navbar() {
       <div className="left_ele">News</div>
       <div className="left_ele">Scores</div>
       <div className="left_ele">Schedule</div>
-      <div className="left_ele">Videos</div>
-      <div className="left_ele">Teams</div>
       <div className="left_ele">Players</div>
       <div className="left_ele">Stats</div>
-
-      {/* <div className="left_ele"><Link to="/">NFL TV</Link></div> */}
-
-
+      <div className='left_ele'><Link>Test</Link></div>
       </div>
+      <div className="middle">Middle</div>
+
       <div className="right">
-      <div className="right_ele">Teams</div>
+      <div className="right_ele">
+
+            Hi Day !
+            
+      </div>
+      <div className="right_ele">
+      <img src="../Components/profile.png" className='profile-pic' alt="" />
+      </div>
       </div>
     </div>
   )
