@@ -6,22 +6,19 @@ import Home from './Pages/Home';
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import Test from './Pages/Test';
 
+
 function App() {
   return (
-    
+    <BrowserRouter>
     <div className="App">
-
       <Navbar></Navbar>
-
-      <BrowserRouter>
       <Routes>
               <Route path="/" element={<Home/>} />
               <Route path="*" element={<Test/>} />
       </Routes>
-      </BrowserRouter>
-
-   
+      
     </div>
+    </BrowserRouter>
   );
 }
 
