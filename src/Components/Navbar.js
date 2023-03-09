@@ -22,7 +22,10 @@ export default function Navbar() {
       <div className="left_ele">Teams</div>
       <div className="left_ele">Players</div>
       <div className="left_ele">Stats</div>
+
       {/* <div className="left_ele"><Link to="/">NFL TV</Link></div> */}
+
+
       </div>
       <div className="right">
       <div className="right_ele">Teams</div>
