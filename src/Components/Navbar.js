@@ -1,6 +1,7 @@
 import React from 'react'
 import '../Components/navbar.css'
 import logo from './logo.png'
+import profile from './profile.png'
 import { Link, Outlet } from 'react-router-dom'
 
 export default function Navbar() {
@@ -16,9 +17,9 @@ export default function Navbar() {
       </div>
       <div className="left_ele">News</div>
       <div className="left_ele">Scores</div>
-      <div className="left_ele">Schedule</div>
       <div className="left_ele">Players</div>
-      <div className="left_ele">Stats</div>
+      <div className="left_ele">Sidekick</div>
+      <div className="left_ele">SideSquad</div>
       <div className='left_ele'><Link>Test</Link></div>
       </div>
       <div className="middle">Middle</div>
@@ -30,7 +31,7 @@ export default function Navbar() {
             
       </div>
       <div className="right_ele">
-      <img src="../Components/profile.png" className='profile-pic' alt="" />
+      <img src={profile} className='profile-pic' alt="" />
       </div>
       </div>
     </div>

@@ -37,3 +37,8 @@ a{
     text-decoration: none;
 }
 
+.profile-pic{
+    color: blue;
+    width: 2vw; height: 3vh; object-fit: cover; object-position: 50% 0 ;
+    border-radius: 50%;
+}

@@ -1,0 +1,24 @@
+
+
+.home{
+    display: flex;
+    flex-direction: column;
+    background-color: #000000;
+}
+
+.home_child{
+    margin: 4vh 0;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.Agency_gal{
+    max-height: 27vh;
+}
+.draft_gal{
+    max-height: 27vh;
+}
+.combine_gal{
+    max-height: 26vh;
+}
