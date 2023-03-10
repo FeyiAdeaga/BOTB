@@ -22,7 +22,7 @@ export default function Navbar() {
       <div className="left_ele">SideSquad</div>
       <div className='left_ele'><Link>Test</Link></div>
       </div>
-      <div className="middle">Middle</div>
+      <div className="middle"><Link>Middle</Link></div>
 
       <div className="right">
       <div className="right_ele">
