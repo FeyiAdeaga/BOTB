@@ -5,11 +5,18 @@
     letter-spacing: 4px;
     margin: 20vh;
     display: flex;
+    align-items: center;
     flex-direction: column;
+
 }
 
+
 .main_img{
-    max-height: 49vh;
+    max-height: 39vh;
+}
+.main_img:hover{
+    transform: scale(1.1);
+    transition-duration: 1s;
 }
 .intro{
     display: flex;
@@ -32,7 +39,67 @@ display: flex;
 }
 
 .mid{
+    margin: 3vh 0;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.pic{
+    margin-top: 30vh;
+    display: flex;
+    font-size: 2.5vh;
+    justify-content: space-between;
+    align-items: center;
+    letter-spacing: normal;
+
+}
+
+.pic_txt{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.Title{
+    font-size: 4vh;
+}
+.sub{
+    max-width: 50vw;
+    display: block;
+}
+
+.footer{
+    margin: 20vh -40vh;
+    font-size: 3vh;
+    padding: 30vh;
+    width: 100%;
+    display: flex;
+    background-color: #1a1a1a;
+    color: white;
+    letter-spacing: normal;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.mock{
+    max-height: 33vh;
+}
+.sponsors{
+    background-color: #013369;
+    display: flex;
+    flex-direction: column;
+    padding: 0 50;
+    justify-content: center;
+    padding: 10vh 20vh;
+    margin: -20vh -20vh;
+
+}
+.logo{
+   max-height: 6vh;
+}
+
+.sponsor_footer{
+    font-size: 2vh;
+    color: white;
+
 }
