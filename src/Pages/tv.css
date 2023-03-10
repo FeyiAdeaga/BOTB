@@ -2,5 +2,37 @@
     font-family: 'Optimistic Display Medium', Helvetica, Arial, sans-serif;
     font-size: 50px;
     font-weight: 400;
+    letter-spacing: 4px;
+    margin: 20vh;
+    display: flex;
+    flex-direction: column;
+}
 
+.main_img{
+    max-height: 49vh;
+}
+.intro{
+    display: flex;
+}
+
+.intro_text, .intro{
+display: flex;
+}
+.intro_text{
+    flex-direction: column;
+    margin-right: 2vw;
+
+}
+
+.intro{
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 7vh;
+}
+
+.mid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
